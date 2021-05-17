@@ -12,7 +12,7 @@ namespace ConsoleApp2
         }
 
         //Ввести трехзначное число. Посчитать сумму цифр, вывести на экран
-        static int Task1v1()//влоб
+        static int task3xNum_v1()//влоб
         {
             //со стрингой не используя массивы(если стринг не в счёт) и парс
             int answer = 0;
@@ -65,7 +65,7 @@ namespace ConsoleApp2
         }
 
         //Ввести трехзначное число. Посчитать сумму цифр, вывести на экран
-        static void Task1v2()//по хитрому:)
+        static void task3xNum_v2()//по хитрому:)
         {
             //не используя массивы вообще. По факты маленький кейлоггер
             ConsoleKeyInfo key;
@@ -111,7 +111,7 @@ namespace ConsoleApp2
         }
 
         //Ввести трехзначное число. Посчитать сумму цифр, вывести на экран
-        static int Task1v3()
+        static int task3xNum_v3()
         {
             int answer = 0;//не сохраняя считанные позиции. с парсом
             int readInt = 0;
@@ -151,7 +151,7 @@ namespace ConsoleApp2
 
 
         //Вводить числа, пока не будет введен ноль. Вывести число с максимальной суммой
-        static int Task2()
+        static int taskMaxSum()
         {
             int answer = 0;//не сохраняя считанные позиции. с парсом
             int maxAnswer = 0;
@@ -187,7 +187,7 @@ namespace ConsoleApp2
 
 
         //Ввести n чисел (n задается пользователем). Посчитать сумму трех первых нечетных
-        static int Task3v1()
+        static int taskSumFirst3xOdd()
         {
             int answer = 0;
             int N;
@@ -217,7 +217,7 @@ namespace ConsoleApp2
 
 
         //Ввести n чисел (n задается пользователем). Посчитать сумму трех последних нечетных.
-        static int Task4v1()
+        static int taskSumLast3xOdd()
         { 
             int answer = 0;
             int N;
@@ -249,7 +249,7 @@ namespace ConsoleApp2
          
 
         //Ввести n чисел (n задается пользователем). Посчитать сумму трех первых нечетных.
-        static int Task3v2()
+        static int taskSumFirst3xOddv2()
         { 
             int answersum = 0;
             int currentPositionOfDigit = 0;
@@ -292,7 +292,7 @@ namespace ConsoleApp2
         }
 
         //Ввести n чисел (n задается пользователем). Посчитать сумму трех последних нечетных.
-        static int Task4v2()
+        static int taskSumLast3xOdd4v2()
         {
             int answersum = 0;
             int currentPositionOfDigit = 0;
