@@ -7,8 +7,8 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            //System.Console.WriteLine(Program.arr_task2());
-            Program.Task1v1();
+            System.Console.WriteLine(Program.taskSumFirst3xOdd());
+            //Program.task3xNum_v1();
         }
 
         //Ввести трехзначное число. Посчитать сумму цифр, вывести на экран
