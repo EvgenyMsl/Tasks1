@@ -357,7 +357,7 @@ namespace ConsoleApp2
                 n++;
                 answersum += number;
             }
-            answersum -= number;
+            answersum -= number; 
             n--;
             Console.WriteLine(n + " слагаемых и сумма " + answersum);
             return answersum;
