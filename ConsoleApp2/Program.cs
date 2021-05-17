@@ -149,6 +149,7 @@ namespace ConsoleApp2
             return answer;
         }
 
+
         //Вводить числа, пока не будет введен ноль. Вывести число с максимальной суммой
         static int Task2()
         {
@@ -184,6 +185,7 @@ namespace ConsoleApp2
             return answer;
         }
 
+
         //Ввести n чисел (n задается пользователем). Посчитать сумму трех первых нечетных
         static int Task3v1()
         {
@@ -212,6 +214,7 @@ namespace ConsoleApp2
             }
             return answer;
         }
+
 
         //Ввести n чисел (n задается пользователем). Посчитать сумму трех последних нечетных.
         static int Task4v1()
@@ -243,6 +246,7 @@ namespace ConsoleApp2
             }
             return answer;
         }
+
 
         //Ввести n чисел (n задается пользователем). Посчитать сумму трех первых нечетных.
         static int Task3v2()
